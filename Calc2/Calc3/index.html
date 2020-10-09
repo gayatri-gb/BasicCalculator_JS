@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator In JAVASCRIPT</title>
+  </head>
+  <body>
+      <h1> Basic Calculator</h1>
+    <form id="myform" name="calc">
+      <input name="disply" class="disp" />
+      <br>
+      <input type="button" value="0" onClick="disply.value+=0"/>
+      <input type="button" value="1"onClick="disply.value+=1"/>
+      <input type="button" value="2"onClick="disply.value+=2">
+      <input type="button" value="+" style="background-color: blueviolet;" onClick="disply.value+='+'"><br>
+      <input type="button" value="3" onClick="disply.value+=3">
+      <input type="button" value="4" onClick="disply.value+=4">
+      <input type="button" value="5" onClick="disply.value+=5">
+      <input type="button" value="-"style="background-color: pink;" onClick="disply.value+='-'"><br>
+      <input type="button" value="6" onClick="disply.value+=6">
+      <input type="button" value="7" onClick="disply.value+=7">
+      <input type="button" value="8" onClick="disply.value+=8">
+      <input type="button" value="x" style="background-color: purple;" onClick="disply.value+='*'"><br>
+      <input type="button" value="9" onClick="disply.value+=9">
+      <input type="button" value="C" onClick="disply.value=''">
+      <input type="button" value="=" onClick="disply.value=eval(disply.value)">
+      <input type="button" value="&#247"style="background-color: orange;" onClick="disply.value+='/'">
+
+    </form>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </body>
+</html>
